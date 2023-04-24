@@ -25,6 +25,7 @@ bool isPng(const std::string& filename) {
 
 int main()
 {
+    std::cout<<"\t\tPNG-file detector\n\n";
     std::cout << "Enter the full file name: ";
     std::string fileName;
     std::cin >> fileName;
