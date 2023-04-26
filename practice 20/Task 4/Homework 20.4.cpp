@@ -112,7 +112,7 @@ bool withdrawal() {
 int main() {
     std::fill(withdrawal_set.begin(), withdrawal_set.end(), 0);
     std::fill(atm_cash.begin(), atm_cash.end(), 0);
-    std::string enter_str = enter("\nEnter '+' for Encashment!\nEnter '-' for Client!");
+    std::string enter_str = enter("\nEnter '+' for Encashment!\nEnter '-' for Client!\nEnter '!' for check banknotes!");
     if (enter_str == "+") {
         processEncashment();
     }
