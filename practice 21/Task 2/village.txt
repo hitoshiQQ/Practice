@@ -1,0 +1,29 @@
+Territory ¹:2 || square: 1000 || Amount of building's: 3
+Building ¹1 is barn || square: 40
+Building ¹1 is baths || square: 15
+Building ¹1 is house || square: 350
+Number floor's: 3
+Floor 1 || height: 3 || Number room's: 2
+Room ¹1 type: livingroom || square: 80
+Room ¹2 type: kitchen || square: 20
+Floor 2 || height: 3 || Number room's: 4
+Room ¹1 type: bedroom || square: 30
+Room ¹2 type: bedroom || square: 30
+Room ¹3 type: bedroom || square: 30
+Room ¹4 type: bedroom || square: 30
+Floor 3 || height: 3 || Number room's: 2
+Room ¹1 type: bathroom || square: 15
+Room ¹2 type: bathroom || square: 15
+Territory ¹:1 || square: 1000 || Amount of building's: 1
+Building ¹0 is house || square: 120
+Number floor's: 1
+Floor 1 || height: 2 || Number room's: 2
+Room ¹1 type: kitchen || square: 25
+Room ¹2 type: bathroom || square: 40
+Territory ¹:3 || square: 1000 || Amount of building's: 3
+Building ¹1 is house || square: 20
+Number floor's: 1
+Floor 1 || height: 2 || Number room's: 1
+Room ¹1 type: kitchen || square: 10
+Building ¹2 is garage || square: 20
+Building ¹3 is garage || square: 10
