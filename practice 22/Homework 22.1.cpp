@@ -88,11 +88,7 @@ void findToName(std::map<std::string, std::string>& phoneBook) {
     }
 
     std::map<std::string, std::string>::iterator iter;
-    for (iter = phoneBook.begin(); iter != phoneBook.end(); ++iter) {
-        if (iter->first == name) {
-            break;
-        }
-    }
+    iter = phoneBook.find(name);
     if (iter != phoneBook.end()) {
         res = "Phone: " + iter->second;
     }else {
