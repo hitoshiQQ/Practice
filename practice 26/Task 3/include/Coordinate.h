@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "Validator.h"
+#include "validator.h"
 
 
 class Coordinate {
