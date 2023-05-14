@@ -4,26 +4,33 @@
 class Validator {
 public:
     static bool checkNumInt(std::string str) {
-#define N (str[i])
-        for (int i = 0; i < str.size(); ++i) {
-            if (i == 0 && N == '-') continue;
-            if (N > '9' && N < '0') return false;
+        for (int j = 0; j < str.size(); ++j) {
+            if (j == 0 && str[j] == '-') {
+                continue;
+            }
+            if (str[j] > '9' && str[j] < '0') {
+                return false;
+            }
         }
         return true;
     }
     static bool checkRealNum(std::string str) {
-        bool hasDot = false;
-        for (int i = 0; i < str.size(); ++i) {
-            if (N == '.' && hasDot) return false;
-            else if (N == '.' && !hasDot) {
+        bool aDot = false;
+        for (int j = 0; j < str.size(); ++j) {
+            if (str[j] == '.' && aDot) {
+                return false;
+            }
+            else if (str[j] == '.' && !aDot) {
                 hasDot = true;
                 continue;
             }
-            if (i == 0 && N == '-') continue;
-            if (N > '9' && N < '0') return false;
+            if (j == 0 && str[j] == '-') {
+                continue;
+            }
+            if (str[j] > '9' && str[j] < '0') {
+                return false;
+            }
         }
         return true;
     }
-#undef N
-
 };
