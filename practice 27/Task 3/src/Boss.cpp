@@ -26,7 +26,7 @@ void Boss::setOrder() {
 	int bossOrder;
 	std::cout << "\nEnter number of boss's oreder: ";
 	std::cin >> bossOrder;
-	std::system("clear");
+	std::system("cls");
 	for (int j = 0; j < teams.size(); ++j) {
 		teams[j]->companyTask(bossOrder);
 	}
