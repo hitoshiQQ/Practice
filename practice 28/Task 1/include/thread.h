@@ -4,7 +4,7 @@
 #include <string>
 #include "Swimmers.h"
 
-class Result {
+class Threading {
 public: 
 	std::vector<std::thread> threads;
 	void joinForAll();
