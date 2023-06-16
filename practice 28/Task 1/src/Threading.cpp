@@ -1,4 +1,4 @@
-#include "Result.h"
+#include "Tgreading.h"
 
 void Result::joinForAll() {
 	if (threads.size() <= 0) {
