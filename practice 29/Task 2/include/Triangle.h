@@ -6,7 +6,7 @@ private:
 	double a;
 	double b;
 	double c;
-	double per;
+	double p;
 
 	std::string type() override;
 	double square() override;
