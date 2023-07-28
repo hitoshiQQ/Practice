@@ -1,42 +1,23 @@
+#include "Dog.h"
+#include "Toy.h"
 #include <iostream>
-#include "shared_ptr_toy.h"
-
-void print(Shared_ptr_toy& sp_toy) {
-	if (&sp_toy) {
-		std::cout << "shared ptr = " << &sp_toy << " " << (sp_toy.get() ? sp_toy.get()->get_name() : "") << std::endl;
-	}
-	else {
-		std::cout << "Not initialized \n";
-	}
-}
 
 int main() {
+	std::shared_ptr<Toy> ball = std::make_shared<Toy>("ball");
+	std::shared_ptr<Toy> bone = std::make_shared<Toy>("bone");
 
-	Shared_ptr_toy a = Shared_ptr_toy(Toy("Ball"));
-	a.print();
+	Dog a("Arik", ball, 12);
+	Dog b("Bobik", bone, 13);
 
-	{
-		Shared_ptr_toy b = Shared_ptr_toy(a);
-		b.print();
-		Shared_ptr_toy c = Shared_ptr_toy(b);
-		c.print();
-	}
-	{
-		Shared_ptr_toy d = a;
-		d.print();
-		d.reset();
-		d.print();
-	}
-	{
-		Shared_ptr_toy e = Shared_ptr_toy();
-		e.print();
-		Shared_ptr_toy f = Shared_ptr_toy(Toy("Ball"));
-		f.print();
+	a.dropToy();
+	a.dropToy();
+	a.getToy(bone);
 
-		e.reset();
-		e.print();
-		f.reset();
-		f.print();
+	b.getToy(ball);
+	b.getToy(ball);
 
-	}
-};
+	a.getToy(bone);
+
+
+	return 0;
+}

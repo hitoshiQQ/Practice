@@ -1,5 +1,5 @@
 set(MY_INCLUDE ${CMAKE_SOURCE_DIR}/include)
 
-add_executable(smartPointer "main.cpp" "shared_ptr_toy.cpp")
+add_executable(useSmartPointer "main.cpp" )
 
-target_include_directories("smartPointer" PUBLIC ${MY_INCLUDE})
+target_include_directories("useSmartPointer" PUBLIC ${MY_INCLUDE})
