@@ -1,0 +1,49 @@
+{
+    "Box office": "28 100 000 - Dollar's",
+    "Budget": "800 000 - Pound's",
+    "Cinematography": "Tim Maurice-Jones",
+    "Countries": "United Kingdom, United States",
+    "Directed by": "Guy Ritchie",
+    "Distributed by": "PolyGram Filmed Entertainment (United Kingdom) , Gramercy Pictures(United States)",
+    "Edited by": "Niven Howie",
+    "Music by": "David A.Hughes, John Murphy",
+    "Name": "Lock, Stock and Two Smoking Barrels",
+    "Narrated by": "Alan Ford",
+    "Produced by": "Matthew Vaughn",
+    "Starring": {
+        "1": [
+            "Jason Flemyng",
+            "Tom"
+        ],
+        "2": [
+            "Nick Moran",
+            "Eddie"
+        ],
+        "3": [
+            "Dexter Fletcher",
+            "Soap"
+        ],
+        "4": [
+            "Jason Statham",
+            "Bacon"
+        ],
+        "5": [
+            "Steven Mackintosh",
+            "Winston"
+        ],
+        "6": [
+            "Vinnie Jones",
+            "Big Chris"
+        ],
+        "7": [
+            "Stephen Marcus",
+            "Nick \"the Greek\""
+        ],
+        "8": [
+            "Sting (Gordon Matthew Thomas Sumner)",
+            "JD"
+        ]
+    },
+    "Written by": "Guy Ritchie",
+    "Year": 1998
+}
