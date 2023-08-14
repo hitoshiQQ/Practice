@@ -5,7 +5,7 @@ struct GameTable {
 	bool boot = false;
 };
 
-void field—ompletion(GameTable* table);
+void fieldCompletion(GameTable* table);
 void processGame(GameTable* table);
 void showTable(GameTable* table);
 
