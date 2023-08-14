@@ -5,7 +5,7 @@
 
 void game() {
 	GameTable table [9] {};
-	field—ompletion(table);
+	fieldCompletion(table);
 	showTable(table);
 
 	try {
