@@ -4,7 +4,7 @@
 #include "exception.h"
 
 
-void field—ompletion(GameTable* table) {
+void fieldCompletion(GameTable* table) {
 	std::random_device rand;
 	std::mt19937 gen(rand());
 	std::uniform_int_distribution<> dist(0, 9 - 1);
