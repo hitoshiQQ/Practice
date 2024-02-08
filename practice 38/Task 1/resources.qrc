@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>button_default.png</file>
+        <file>button_press.png</file>
+        <file>button_press_sound.mp3</file>
+    </qresource>
+</RCC>
